@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.searching.BinarySearch;
 import com.company.searching.LinearSearch;
+import com.company.sorting.ReverseArray;
 
 public class Main {
 
@@ -14,6 +15,9 @@ public class Main {
         //Linear search
         LinearSearch ls = new LinearSearch();
         System.out.println(ls.search(new int[]{1,2,5,9,20}, 1));
+
+        ReverseArray ra = new ReverseArray();
+        ra.sort(new int[]{1,2,5,9,20});
 
 
     }
